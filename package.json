@@ -1,0 +1,31 @@
+{
+  "name": "stream-net",
+  "version": "0.0.1",
+  "description": "net module like koa",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "example": "node ./example/"
+  },
+  "dependencies": {
+    "file-stream-rotator": "^0.2.1",
+    "through2": "2.0.3"
+  },
+  "keywords": [
+    "net",
+    "stream",
+    "middleware",
+    "koa-like"
+  ],
+  "author": "bestNathan",
+  "license": "MIT",
+  "directories": {
+    "example": "example",
+    "lib": "lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/BestNathan/stream-net"
+  },
+  "devDependencies": {}
+}
